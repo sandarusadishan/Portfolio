@@ -171,15 +171,17 @@ body {
 }
 
 
-@keyframes  slidRight {
-    0%{
-        transform: translateX(-100px);
-    }
-    100%{
-        transform: translateX(0px);
-        opacity: 1;
-    }
+@keyframes SlideRight {
+  0% {
+      transform: translateX(-100px);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
 }
+
 @keyframes  slideLeft {
     0%{
         transform: translateY(-100px);
@@ -223,6 +225,5 @@ body {
     }
 }
 .new1 {
-    color: #0ef; /* Choose a color that contrasts well with the background */
+    color: #0ef; 
 }
-
